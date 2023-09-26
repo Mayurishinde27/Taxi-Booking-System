@@ -13,10 +13,6 @@
 
 <img src="https://img.icons8.com/fluency/48/000000/python.png"/>
 
-<img width = "55" src="https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/57efbca9-d6a4-4f4c-8c5c-0eea0d3f87a5"/>
-
-<img width = "50" src="https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/e24cc4d7-9f81-4606-89e0-f4b89d90f0fb"/>
-
 <img src="https://img.icons8.com/color/48/000000/bot.png"/>
 
 
@@ -60,17 +56,25 @@ Our aim was to provide a seamless and efficient platform for taxi bookings and m
 ## 🛠 Working
 
 
-<img width="869" alt="image" src="https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/07a113c0-ea04-4557-b488-64994df9dde9">
+![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/614ded2c-aa69-46eb-a16c-0e8acba2679c)
+
+![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/798c63f1-d324-4e34-bc13-820bf98199d1)
 
 
-![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/e2ed249d-5aa4-4427-9a01-f433d11e0dc4)
+<img width="873" alt="image" src="https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/8432c05c-1bfd-4933-a663-992faeed968d">
 
-<img width="870" alt="image" src="https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/36fb5710-98ff-40ee-b2f6-138d06ec63f6">
+<img width="887" alt="image" src="https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/ce7261e8-f523-44a1-adf1-d93c16a4aaff">
 
-![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/1f4660fa-9ef8-4e78-a8e2-1067c196803c)
 
-![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/877ab3ca-0b11-4f66-bc7a-b2406908a1fe)
+![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/8ec41363-dbc2-451e-8913-a3cb078c6161)
 
-![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/17e005bc-bb28-4260-b636-b5f451d20320)
+![taxi](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/7c4963e1-c05e-4a82-8ce8-2bca1734967e)
 
-![image](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/6c22bce2-9afb-48d9-84e5-0f51d966247d)
+
+![txi](https://github.com/Mayurishinde27/Taxi-Booking-System/assets/85113641/fe1aa9cd-65b8-4701-9b80-abda77c5d924)
+
+
+
+
+
+

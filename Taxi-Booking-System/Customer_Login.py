@@ -46,7 +46,7 @@ class CustLoginClass(): #creating a class CustLoginClass
         
 
      def CustomerLog(self): #creating a function CustomerLog
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor()#creating a cursor object
         con.commit() #commiting the connection then closing it.
         if self.Email =="" or self.Password == "": #checking if the fields are empty

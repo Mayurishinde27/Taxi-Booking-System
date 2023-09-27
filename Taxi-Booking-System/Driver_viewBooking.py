@@ -89,7 +89,7 @@ class DriverVieBookingClass():
         self.show() 
         
     def show(self):
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor()
         try:
             cur.execute("select * from admin_page")

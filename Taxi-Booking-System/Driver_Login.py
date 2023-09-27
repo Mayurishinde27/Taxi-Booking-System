@@ -40,7 +40,7 @@ class DriverLoginClass(): #class for Driver Login
 
 
      def DriverLog(self): #function for Driver Login
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database') #connecting to database
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database') #connecting to database
         cur=con.cursor() #creating object of cursor class
         con.commit() #commiting the changes
         if self.Email =="" or self.Password == "": #checking if the fields are empty

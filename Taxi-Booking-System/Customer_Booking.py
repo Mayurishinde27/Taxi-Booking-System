@@ -148,7 +148,7 @@ class CustBookingSystemClass(): # create class
         
     def show(self):
         # connecting to the database
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor()
         try:
             cur.execute("select * from booking_details") # select all the data from the table
@@ -178,7 +178,7 @@ class CustBookingSystemClass(): # create class
 
     def book(self): # book the taxi
         # connecting to the database
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor()
         cur.execute("INSERT INTO booking_details (Customer_Name, Booking_Date, Pickup_Date, Pickup_Time, Pickup_Location, Dropoff_Location, Taxi_required, Credit_Card_No) values(%s,%s,%s,%s,%s,%s,%s,%s)",
                     (self.customer_name.get(),
@@ -197,7 +197,7 @@ class CustBookingSystemClass(): # create class
         
     def update(self): # update the booking
         # connecting to the database
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor()
         cur.execute("UPDATE Booking SET Customer_Name=?, Pickup_Date=?, Pickup_Time=?, Pickup_Location=?, Dropoff_Location=?, Taxi_required=?, Credit_Card_No=? WHERE Booking_ID = ?",
                     (
@@ -217,7 +217,7 @@ class CustBookingSystemClass(): # create class
 
     def delete(self): # delete the booking
         # connecting to the database
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor()
         op=messagebox.askyesno("Confirm", "Do you want to delete?",parent=self.root)
         if op==True:
@@ -299,7 +299,7 @@ class CustBookingSystemClass(): # create class
  
     # def show1(self): # show the data
     #     # connecting to the database
-    #     con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+    #     con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
     #     cur=con.cursor()
     #     try:
     #         cur.execute("select * from admin_page")

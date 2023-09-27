@@ -82,7 +82,7 @@ class RegistrationPageClass(): #creating class
 
             try:
                 #connecting to database
-                con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+                con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
                 cur=con.cursor()
                 cur.execute("INSERT INTO customer_reg (Name, Address, Phone_no, Email, Credit_Card, Password) values(%s,%s, %s,%s, %s,%s)",
                             (

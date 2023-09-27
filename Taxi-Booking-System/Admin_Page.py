@@ -125,7 +125,7 @@ class AdminPageClass(): # Create a class
         #showing the data
     def show(self): # function to show the data in the table
         # connection to the database
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor()
         try:
             cur.execute("select * from admin_page")
@@ -166,7 +166,7 @@ class AdminPageClass(): # Create a class
         
     def confirm(self): #confirm function
         # connection to the database
-        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+        con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
         cur=con.cursor() #cursor is used to execute the query
         cur.execute("INSERT INTO admin_page (Customer_Name,Pickup_Date, Pickup_Time, Pickup_Location, Dropoff_Location, Taxi_required, Driver_Name, Driver_Licenes_Plate) values(%s,%s,%s,%s,%s,%s,%s,%s)",
                     (self.customer_name.get(),
@@ -226,7 +226,7 @@ class AdminPageClass(): # Create a class
          val2 = int(self.amount.get()) #getting the value from the entry box
          total = val1*val2 #multiplying the values
          self.total.set(str(total)) #setting the value in the entry box
-         con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'Richa@3217', database = 'taxi_database')
+         con = mysql.connector.connect(host = 'localhost' ,username = 'root', password = 'xyz', database = 'taxi_database')
          cur=con.cursor()
          cur.execute("INSERT INTO bill (Customer_Name, Total_Distance, Charge_per_KM, Total_price ) values(%s, %s,%s,%s)",
                     (self.name.get(), 
